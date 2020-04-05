@@ -14,10 +14,9 @@ if x == xprevious && y == yprevious{
 
 
 //detection code
-var radius = 10;
 with (obj_trap) {
-	var dx = x - other.x, dy = y - other.y;
-	if (sqrt(dx*dx + dy*dy) <= radius) {
-		other.image_index = 1;
+	if (point_distance(x, y, other.x, other.y) <= 64) {
+		show_debug_message("detected");
+		other.image_index = 1
 	}
 }
