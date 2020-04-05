@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-script_execute(script0, trapRange);
+//script_execute(script0);
 if x == xprevious && y == yprevious{
 	if keyboard_check_released(ord("A"))
 	sprite_index = spr_player_left1
@@ -10,4 +10,14 @@ if x == xprevious && y == yprevious{
 	sprite_index = spr_player_right1
 	if keyboard_check_released(ord("W"))
     sprite_index = spr_player_up1
+}
+
+
+//detection code
+var radius = 10;
+with (obj_trap) {
+	var dx = x - other.x, dy = y - other.y;
+	if (sqrt(dx*dx + dy*dy) <= radius) {
+		other.image_index = 1;
+	}
 }
