@@ -15,7 +15,7 @@ if x == xprevious && y == yprevious{
 
 //detection code
 with (obj_trap) {
-	if (point_distance(other.x, other.y, x, y) <= 64) {
+	if (point_distance(other.x, other.y, x, y) <= 20) {
 		image_speed = 1
 	}
 }
