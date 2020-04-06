@@ -1,0 +1,31 @@
+Artwork
+
+Licensing Information and links:
+
+License:
+
+Player  and Enemy Sprite : Creative Commons
+Object / Interactables : Creative Commons
+Background Tiles : Creative Commons
+
+Details of sprites/tiles:
+
+1.	Scut Pixel Tileset 8x8 Roguelike
+2.	Free Dungeon Mini by Raou
+3.	16x16 8 directional character set
+
+Audio:
+
+Sound SFX & Music : 
+
+Royalty Free Music available at freesound.org, freesoundeffects.com
+
+Sprites available at itch.io for free under Creative Commons
+
+Licensing Information: Creative Commons (Free)
+
+https://lionheart963.itch.io/4-directional-character
+https://szadiart.itch.io/rogue-fantasy-castle
+https://opengameart.org/content/16x16-pixel-art-dungeon-wall-and-cobblestone-floor-tiles
+https://pixel-poem.itch.io/dungeon-assetpuck
+https://midnitepixelated.itch.io/free-16x16-pixel-art-fx
