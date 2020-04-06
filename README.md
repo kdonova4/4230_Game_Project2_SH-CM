@@ -1,9 +1,9 @@
 # Slaughterhouse: Criminal Minds
 ## Members
-Sung Ho Park - Designer/Producer
-Kevin Donovan - Programmer/Producer
-Ajithesh Navaneethakrishnan - Artist
-Pranav Dadu - Programmer
+-Sung Ho Park - Designer/Producer
+-Kevin Donovan - Programmer/Producer
+-Ajithesh Navaneethakrishnan - Artist
+-Pranav Dadu - Programmer
 ## How To Play
 WASD - Movement
 Space - Open chests
