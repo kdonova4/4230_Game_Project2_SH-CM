@@ -5,8 +5,8 @@
 - Ajithesh Navaneethakrishnan - Artist
 - Pranav Dadu - Programmer
 ## How To Play
-WASD - Movement
-Space - Open chests
+- WASD - Movement
+- Space - Open chests
 ## Cheats
 - F4 - disable/enable fullscreen
 - ESC - Exit Game
