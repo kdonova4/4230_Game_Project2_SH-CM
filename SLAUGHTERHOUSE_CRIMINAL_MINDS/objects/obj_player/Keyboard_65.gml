@@ -10,3 +10,9 @@ if (!place_meeting(x-2,y,obj_wall))
 			sprite_index = spr_player_left
 		}
 	}
+	volume = 100 / distance
+ if(volume > 1 )
+ {
+	volume = 1	 
+	 
+ }

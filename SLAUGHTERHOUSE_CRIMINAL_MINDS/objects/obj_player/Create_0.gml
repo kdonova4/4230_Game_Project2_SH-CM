@@ -3,3 +3,5 @@
 detected = false;
 globalvar matches;
 matches = 0;
+globalvar volume;
+volume = 0;

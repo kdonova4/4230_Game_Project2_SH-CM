@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_candles",
     "eventList": [
-        
+        {
+            "id": "4d7249fd-4c19-46dd-a24d-395408926574",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "be71dd92-a398-4259-b53a-b83a282dfa70"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

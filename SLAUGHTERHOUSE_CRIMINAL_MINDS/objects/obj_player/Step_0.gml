@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 //script_execute(script0);
+distance = distance_to_object(obj_drip)
 if x == xprevious && y == yprevious{
 	if keyboard_check_released(ord("A"))
 	sprite_index = spr_player_left1
@@ -19,3 +20,12 @@ with (obj_trap) {
 		image_speed = 1
 	}
 }
+
+
+volume = 100 / distance/60
+ if(volume > 1 )
+ {
+	volume = 1	 
+	 
+ }
+ 
