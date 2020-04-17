@@ -495,6 +495,14 @@
             }
         },
         {
+            "Key": "c1a9c77c-a8c6-49f4-b00d-f6e2c490c20d",
+            "Value": {
+                "id": "d32dca13-64f0-479b-ba51-617726950468",
+                "resourcePath": "objects\\obj_UI\\obj_UI.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c37eba81-3a8a-4340-b4e1-54864c39bce5",
             "Value": {
                 "id": "dc061378-7551-413b-a91f-e438e391fe28",

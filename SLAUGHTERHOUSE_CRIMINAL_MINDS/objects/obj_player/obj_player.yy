@@ -113,6 +113,36 @@
             "enumb": 64,
             "eventtype": 8,
             "m_owner": "ecd877f0-0194-4762-9c8e-2b83a5ecf460"
+        },
+        {
+            "id": "45e46abb-1fac-4a4d-a3d5-46b6a9f9d61c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "ecd877f0-0194-4762-9c8e-2b83a5ecf460"
+        },
+        {
+            "id": "a6fbc67c-1360-4710-bcdc-f07d1f318e2a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 70,
+            "eventtype": 9,
+            "m_owner": "ecd877f0-0194-4762-9c8e-2b83a5ecf460"
+        },
+        {
+            "id": "616c46c6-2837-4850-b0f8-21edcae083d5",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 2,
+            "m_owner": "ecd877f0-0194-4762-9c8e-2b83a5ecf460"
         }
     ],
     "maskSpriteId": "6637a31d-a4ff-4a6e-81f6-c35482de6145",
@@ -132,7 +162,34 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        
+        {
+            "id": "ae1c6a27-425c-4471-9810-f72de0edb723",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "60",
+            "varName": "lossFactor",
+            "varType": 1
+        },
+        {
+            "id": "af5b03a1-9bd7-461c-ad85-062966b8114b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "4000",
+            "varName": "torchTimer",
+            "varType": 1
+        }
     ],
     "solid": false,
     "spriteId": "6637a31d-a4ff-4a6e-81f6-c35482de6145",
