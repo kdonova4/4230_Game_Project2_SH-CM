@@ -163,20 +163,6 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "ae1c6a27-425c-4471-9810-f72de0edb723",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "60",
-            "varName": "lossFactor",
-            "varType": 1
-        },
-        {
             "id": "af5b03a1-9bd7-461c-ad85-062966b8114b",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",

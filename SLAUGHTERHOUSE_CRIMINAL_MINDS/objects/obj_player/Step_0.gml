@@ -3,7 +3,7 @@
 //script_execute(script0);
 torchLife -=1
 time = torchLife/torchTimer *100
-distance = distance_to_object(obj_drip)
+
 if x == xprevious && y == yprevious{
 	if keyboard_check_released(ord("A"))
 	sprite_index = spr_player_left1
@@ -24,13 +24,8 @@ with (obj_trap) {
 }
 
 // calculating sound volume based on the playes distance to source
-volume = 100 / distance/lossFactor
- if(volume > 1 )
- {
-	volume = 1	 
-	 
- }
- 
+
+
 // player's light goes out randomly 
 if(lightOn == true && alarm[0] == -1)
 {
