@@ -16,13 +16,19 @@ if x == xprevious && y == yprevious{
 }
 
 
-//detection code
+//triggering traps code
 with (obj_trap) {
 	if (point_distance(other.x, other.y, x, y) <= 20) {
 		image_speed = 1
+	} else {
+		image_index = 0;
 	}
 }
 
+//after detection dcode
+if detected {
+	alarm[2] = 30;
+}
 // calculating sound volume based on the playes distance to source
 
 

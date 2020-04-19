@@ -143,6 +143,26 @@
             "enumb": 1,
             "eventtype": 2,
             "m_owner": "ecd877f0-0194-4762-9c8e-2b83a5ecf460"
+        },
+        {
+            "id": "39f20f64-a6b6-4b88-a9b2-0f508447fc17",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "4abfb3e4-be5c-4346-937e-cc9b96c6b62c",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "ecd877f0-0194-4762-9c8e-2b83a5ecf460"
+        },
+        {
+            "id": "7abc1735-4cd3-4411-be76-7adb4ae7e0eb",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
+            "eventtype": 2,
+            "m_owner": "ecd877f0-0194-4762-9c8e-2b83a5ecf460"
         }
     ],
     "maskSpriteId": "6637a31d-a4ff-4a6e-81f6-c35482de6145",
@@ -175,6 +195,20 @@
             "value": "4000",
             "varName": "torchTimer",
             "varType": 1
+        },
+        {
+            "id": "c09ff7b9-9c4c-4bdd-9800-9c6275a1ccac",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "detected",
+            "varType": 3
         }
     ],
     "solid": false,
