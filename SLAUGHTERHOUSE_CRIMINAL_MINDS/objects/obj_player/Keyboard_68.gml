@@ -13,7 +13,7 @@ if (!place_meeting(x+2,y,obj_wall))
 			
 			soundStep = snd_step1
 			
-			if !keyboard_check_pressed(ord("D")) && !keyboard_check(ord("W"))
+			if !keyboard_check(ord("S")) && !keyboard_check(ord("W"))
 		{
 			if (sprite_index == spr_player_right and round(image_index) =1 && !audio_is_playing(soundStep)){
 			audio_play_sound(soundStep,10,false);
