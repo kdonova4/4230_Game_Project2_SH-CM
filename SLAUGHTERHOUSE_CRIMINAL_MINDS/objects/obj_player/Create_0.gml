@@ -9,3 +9,5 @@ size = 75;
 lightOn = true;
 
 torchLife = torchTimer;
+down = false
+up = false

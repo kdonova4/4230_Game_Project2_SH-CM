@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 if (!place_meeting(x-2,y,obj_wall))
 	{
 		
@@ -8,5 +9,17 @@ if (!place_meeting(x-2,y,obj_wall))
 			
 			x -= 1;
 			sprite_index = spr_player_left
+			soundStep = snd_step1	
+	
+			if !keyboard_check_pressed(ord("D")) && !keyboard_check(ord("W"))
+		{
+			if (sprite_index == spr_player_left and round(image_index) =1 && !audio_is_playing(soundStep)){
+				audio_play_sound(soundStep,10,false);
+
+			}
+			if (sprite_index == spr_player_left and round(image_index) =0 && !audio_is_playing(soundStep)){
+				audio_play_sound(soundStep,10,false);
+			}
+		}
 		}
 	}

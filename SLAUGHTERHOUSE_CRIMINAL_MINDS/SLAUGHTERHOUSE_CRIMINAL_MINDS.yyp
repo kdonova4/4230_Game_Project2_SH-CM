@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "02974584-1ee3-4df2-a154-c3bc99654722",
+            "Value": {
+                "id": "78518cdb-2bb2-4ec9-a74e-d08011eeac53",
+                "resourcePath": "sounds\\snd_step1\\snd_step1.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "07229bf2-abdd-4f68-803a-8bf26810c3b1",
             "Value": {
                 "id": "29ec8be8-6901-4084-a1ca-d33a4844ebe4",
@@ -402,7 +410,7 @@
             "Key": "914ce5fc-7f20-4952-8efa-7f4164f2c189",
             "Value": {
                 "id": "260437d4-205d-4214-a1d7-70a98a1c0660",
-                "resourcePath": "sounds\\sound2\\sound2.yy",
+                "resourcePath": "sounds\\snd_chestOpen\\snd_chestOpen.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -420,6 +428,14 @@
                 "id": "8b912894-b92d-4d56-8260-979d97bfff7d",
                 "resourcePath": "tilesets\/tileset1\/tileset1.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "93f3e552-5444-4316-ae7e-2703ca744b46",
+            "Value": {
+                "id": "acbca7b7-dbc2-444d-994b-8132328ddb97",
+                "resourcePath": "sounds\\snd_torchLight\\snd_torchLight.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -532,6 +548,14 @@
                 "id": "f6aa73fc-aa1b-4457-a228-9048dff0d6f0",
                 "resourcePath": "objects\\obj_sound\\obj_sound.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c730188a-e6de-4e35-897a-4fd06cf60b3a",
+            "Value": {
+                "id": "154f9980-aea5-4a45-9b5b-96dae0d8e64a",
+                "resourcePath": "sounds\\snd_step2\\snd_step2.yy",
+                "resourceType": "GMSound"
             }
         },
         {

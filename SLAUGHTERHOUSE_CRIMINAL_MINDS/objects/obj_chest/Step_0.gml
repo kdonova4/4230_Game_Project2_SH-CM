@@ -6,6 +6,7 @@ if distance_to_object(obj_player) < 20
 	{
 		if(matchesAllowed)
 		{
+			audio_play_sound(snd_chestOpen,1,false)
 			sprite_index = spr_chest_opening
 		matchesAllowed = false
 		ItemNum = irandom_range(0,2)

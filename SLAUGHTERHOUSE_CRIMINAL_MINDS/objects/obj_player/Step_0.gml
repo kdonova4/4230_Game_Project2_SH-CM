@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 //script_execute(script0);
+
+
+
 torchLife -=1
 time = torchLife/torchTimer *100
 
@@ -21,7 +24,7 @@ with (obj_trap) {
 	if (point_distance(other.x, other.y, x, y) <= 20) {
 		image_speed = 1
 	} else {
-		image_index = 0;
+		image_speed =-1;
 	}
 }
 
@@ -39,4 +42,4 @@ if(lightOn == true && alarm[0] == -1)
 	
 }
 
- 
+	

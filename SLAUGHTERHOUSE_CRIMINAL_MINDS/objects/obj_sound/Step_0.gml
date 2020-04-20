@@ -7,7 +7,7 @@
  {
 	 distance = distance_to_object(obj_player)
 
-volume = 100 / distance/20
+	volume = 100 / distance/20
  if(volume > 1 )
  {
 	volume = 1	 
