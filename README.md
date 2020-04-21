@@ -7,6 +7,7 @@
 ## How To Play
 - WASD - Movement
 - E - Open chests
+-Space - Attack
 ## Cheats
 - F4 - disable/enable fullscreen
 - ESC - Exit Game
