@@ -6,7 +6,7 @@
 - Pranav Dadu - Programmer
 ## How To Play
 - WASD - Movement
-- Space - Open chests
+- E - Open chests
 ## Cheats
 - F4 - disable/enable fullscreen
 - ESC - Exit Game
