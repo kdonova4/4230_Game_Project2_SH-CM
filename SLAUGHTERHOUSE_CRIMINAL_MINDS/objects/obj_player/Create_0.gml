@@ -11,3 +11,4 @@ lightOn = true;
 torchLife = torchTimer;
 down = false
 up = false
+canAttack = true

@@ -7,15 +7,27 @@
 torchLife -=1
 time = torchLife/torchTimer *100
 
-if x == xprevious && y == yprevious{
-	if keyboard_check_released(ord("A"))
-	sprite_index = spr_player_left1
-	if keyboard_check_released(ord("S"))
-	sprite_index = spr_player_idle
-	if keyboard_check_released(ord("D"))
-	sprite_index = spr_player_right1
-	if keyboard_check_released(ord("W"))
-    sprite_index = spr_player_up1
+if x == xprevious && y == yprevious && canAttack == true{
+	
+	if sprite_index = spr_player_left
+		
+		sprite_index = spr_player_left1
+		if sprite_index = spr_slice_left
+		sprite_index = spr_player_left1
+	if sprite_index = spr_player_down
+		sprite_index = spr_player_idle
+		if sprite_index = spr_slice_down
+		sprite_index = spr_player_idle
+	if sprite_index = spr_player_right
+		sprite_index = spr_player_right1
+		if sprite_index = spr_slice_right
+		sprite_index = spr_player_right1
+	if sprite_index = spr_player_up
+		sprite_index = spr_player_up1
+		if sprite_index = spr_slice_up
+		sprite_index = spr_player_up1
+	
+	
 }
 
 
@@ -35,7 +47,7 @@ if detected {
 // calculating sound volume based on the playes distance to source
 
 
-// player's light goes out randomly 
+// player's light goes out 
 if(lightOn == true && alarm[0] == -1)
 {
 	alarm[0] = torchTimer
@@ -43,3 +55,35 @@ if(lightOn == true && alarm[0] == -1)
 }
 
 	
+if(canAttack)
+{
+		if keyboard_check(vk_space)
+		{
+			canAttack = false
+			alarm[3] =40;
+			if sprite_index = spr_player_left1 || sprite_index = spr_player_left
+			{
+				image_index = 0
+				sprite_index = spr_slice_left
+			}
+			
+			if sprite_index = spr_player_idle || sprite_index = spr_player_down
+			{
+				image_index = 0
+				sprite_index = spr_slice_down
+			}
+			
+			if sprite_index = spr_player_right1 || sprite_index = spr_player_right
+			{
+				image_index = 0
+				sprite_index = spr_slice_right
+			}
+			
+			if sprite_index = spr_player_up1 || sprite_index = spr_player_up
+			{
+				image_index = 0
+				sprite_index = spr_slice_up
+			}
+			
+		}
+}

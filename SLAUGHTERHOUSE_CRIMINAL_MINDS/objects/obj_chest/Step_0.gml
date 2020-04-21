@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if distance_to_object(obj_player) < 20
 {
-	if keyboard_check_pressed(vk_space)
+	if keyboard_check_pressed(ord("E"))
 	{
 		if(matchesAllowed)
 		{

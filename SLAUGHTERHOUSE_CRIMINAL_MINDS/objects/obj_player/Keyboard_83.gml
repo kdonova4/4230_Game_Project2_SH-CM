@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+if(canAttack == true)
+{
 if (!place_meeting(x,y+2,obj_wall))
 	{
 		
@@ -19,3 +20,5 @@ audio_play_sound(soundStep,10,false);
 }
 		}
 	}
+	
+}
