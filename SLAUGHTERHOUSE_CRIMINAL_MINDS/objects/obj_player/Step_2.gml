@@ -8,3 +8,4 @@ draw_ellipse_color(x - size / 2 - camera_get_view_x(view_camera[0]), y - size / 
 surface_reset_target()
 gpu_set_blendmode(bm_normal)
 }
+

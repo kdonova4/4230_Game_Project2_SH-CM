@@ -39,7 +39,16 @@ with (obj_trap) {
 		image_speed =-1;
 	}
 }
-
+with (obj_wind) {
+	if (point_distance(other.x, other.y, x, y) <= 25) {
+		with(obj_player)
+		{
+			lightOn = false
+			time =0
+		}
+		
+	} 
+}
 //after detection dcode
 if detected {
 	alarm[2] = 30;
