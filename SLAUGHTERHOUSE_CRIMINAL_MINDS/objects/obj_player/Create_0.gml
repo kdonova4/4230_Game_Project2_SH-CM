@@ -12,3 +12,4 @@ torchLife = torchTimer;
 down = false
 up = false
 canAttack = true
+canDamage = true;
