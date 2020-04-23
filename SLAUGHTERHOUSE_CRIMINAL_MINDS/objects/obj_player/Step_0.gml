@@ -42,15 +42,14 @@ with (obj_trap) {
 	} else {
 		image_speed =-1;
 		
-		
+		soundPlayed = false
 	}
 	
-	if (point_distance(other.x, other.y, x, y)>= 20)
-	soundPlayed = false
+	
 }
 
 with (obj_wind) {
-	if (point_distance(other.x, other.y, x, y) <= 25) && obj_player.lightOn{
+	if (point_distance(other.x, other.y, x, y) <= 20) && obj_player.lightOn{
 		with(obj_player)
 		{
 			lightOn = false
