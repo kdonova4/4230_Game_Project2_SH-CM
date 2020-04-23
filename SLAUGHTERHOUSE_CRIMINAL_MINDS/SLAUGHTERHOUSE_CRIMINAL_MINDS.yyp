@@ -511,6 +511,14 @@
             }
         },
         {
+            "Key": "9db47897-91cc-4067-8902-bb6f7a2c8622",
+            "Value": {
+                "id": "37bffa77-ca59-48ee-b039-b83ecd2f8e47",
+                "resourcePath": "sounds\\snd_blow_out\\snd_blow_out.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "9edb9871-5038-42b5-a131-81ba94f18641",
             "Value": {
                 "id": "12242d87-9dbe-499c-80da-9a264722f06e",

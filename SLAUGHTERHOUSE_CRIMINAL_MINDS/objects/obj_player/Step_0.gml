@@ -50,12 +50,14 @@ with (obj_trap) {
 }
 
 with (obj_wind) {
-	if (point_distance(other.x, other.y, x, y) <= 25) {
+	if (point_distance(other.x, other.y, x, y) <= 25) && obj_player.lightOn{
 		with(obj_player)
 		{
 			lightOn = false
 			time = 0
 		}
+		if !audio_is_playing(snd_blow_out)
+		audio_play_sound(snd_blow_out, 3, false)
 		
 	} 
 }
