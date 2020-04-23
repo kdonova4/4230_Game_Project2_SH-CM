@@ -34,17 +34,27 @@ if x == xprevious && y == yprevious && canAttack == true{
 //triggering traps code
 with (obj_trap) {
 	if (point_distance(other.x, other.y, x, y) <= 20) {
-		image_speed = 1
+		image_speed = 5
+		if soundPlayed == false
+		audio_play_sound(snd_spikes_up,10,false);
+		soundPlayed = true
+		
 	} else {
 		image_speed =-1;
+		
+		
 	}
+	
+	if (point_distance(other.x, other.y, x, y)>= 20)
+	soundPlayed = false
 }
+
 with (obj_wind) {
 	if (point_distance(other.x, other.y, x, y) <= 25) {
 		with(obj_player)
 		{
 			lightOn = false
-			time =0
+			time = 0
 		}
 		
 	} 
