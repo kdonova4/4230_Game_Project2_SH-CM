@@ -3,7 +3,7 @@
 randomize()
 detected = false;
 globalvar matches;
-matches = 0;
+matches = 1;
 globalvar size;
 size = 75;
 lightOn = true;
