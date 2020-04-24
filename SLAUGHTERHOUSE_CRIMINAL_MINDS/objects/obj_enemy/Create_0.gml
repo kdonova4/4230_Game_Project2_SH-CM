@@ -3,3 +3,5 @@
 depth = -1*y
 path_start(path0,.5, path_action_reverse, 1)
 seesYou = false
+chasing = false
+onPath = true

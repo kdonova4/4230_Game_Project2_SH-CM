@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (path_speed < 0) {
+with (object_index)
+{
+	if (path_speed < 0) {
     sprite_index = spr_enemy_right;
 }
 else
@@ -21,15 +23,31 @@ if distance_to_object(obj_player) < 40
 	seesYou = true
 }
 
-if distance_to_object(obj_player) < 175 && seesYou = true
+if distance_to_object(obj_player) < 75 && seesYou = true
 {
+	chasing = true
 	path_end()
+	onPath = false
 	mv_speed = .5
     mp_potential_step(obj_player.x, obj_player.y, mv_speed, false);
 }	
 else
 {
-	mv_speed = 0
+	chasing = false
+	if chasing == false && onPath = false
+	{
+			pointx = path_get_point_x(path0,0)
+			pointy = path_get_point_y(path0,0)
+			mp_potential_step(pointx, pointy, mv_speed, false);
+			if (x == pointx && y == pointy)
+			{
+				onPath = true
+				path_start(path0,.5, path_action_reverse, 1)
+				
+			}
+			
+			
+	}
 }
 
 	
@@ -48,4 +66,5 @@ else if (direction > 210 && direction < 330)
 else 
 {
 	sprite_index = spr_enemy_right
+}
 }
