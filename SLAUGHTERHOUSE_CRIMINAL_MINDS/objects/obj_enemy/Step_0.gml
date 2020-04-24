@@ -23,7 +23,7 @@ if distance_to_object(obj_player) < 40
 	seesYou = true
 }
 
-if distance_to_object(obj_player) < 150 && seesYou = true
+if distance_to_object(obj_player) < 75 && seesYou = true
 {
 	chasing = true
 	path_end()
@@ -37,13 +37,13 @@ else
 	chasing = false
 	if chasing == false && onPath = false
 	{
-			pointx = path_get_point_x(path0,0)
-			pointy = path_get_point_y(path0,0)
+			pointx = path_get_point_x(path,0)
+			pointy = path_get_point_y(path,0)
 			mp_potential_step(pointx, pointy, mv_speed, false);
 			if (x == pointx && y == pointy)
 			{
 				onPath = true
-				path_start(path0,.5, path_action_reverse, 1)
+				path_start(path,mv_speed, path_action_reverse, 1)
 				
 			}
 			

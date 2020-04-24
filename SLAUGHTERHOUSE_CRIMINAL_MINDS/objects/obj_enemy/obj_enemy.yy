@@ -52,9 +52,23 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": ".75",
+            "value": ".4",
             "varName": "mv_speed",
             "varType": 0
+        },
+        {
+            "id": "c3ab456d-1a29-408d-a90b-cc8a9e3b9f24",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "path",
+            "varType": 5
         }
     ],
     "solid": false,
