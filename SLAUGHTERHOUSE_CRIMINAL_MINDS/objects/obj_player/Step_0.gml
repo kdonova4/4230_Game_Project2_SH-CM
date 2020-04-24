@@ -2,7 +2,13 @@
 // You can write your code in this editor
 //script_execute(script0);
 
+if (mouse_check_button_pressed(mb_left)){
+	flashAlpha=1;
+}
 
+if (flashAlpha>0){
+	flashAlpha -= 0.05;
+}
 
 torchLife -=1
 time = torchLife/torchTimer *100
