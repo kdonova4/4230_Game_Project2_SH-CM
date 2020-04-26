@@ -362,7 +362,7 @@
             "Key": "5379d866-22ff-4ceb-a93c-21212e3ecd85",
             "Value": {
                 "id": "e0390ebe-3a84-4c2a-938b-083f12e33de9",
-                "resourcePath": "paths\\path0\\path0.yy",
+                "resourcePath": "paths\/path0\/path0.yy",
                 "resourceType": "GMPath"
             }
         },
@@ -466,7 +466,7 @@
             "Key": "7ea7e99c-d54b-4e3c-8e07-fddc711d06c1",
             "Value": {
                 "id": "ef7334f5-64a0-481e-8ab2-769293ee6655",
-                "resourcePath": "paths\\path1\\path1.yy",
+                "resourcePath": "paths\/path1\/path1.yy",
                 "resourceType": "GMPath"
             }
         },
@@ -644,6 +644,14 @@
                 "id": "5453a352-b079-457f-9ef2-8972bc5f2061",
                 "resourcePath": "sprites\/spr_heart\/spr_heart.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ad0a6c3c-10c3-412f-bcd7-eb9768f1eb37",
+            "Value": {
+                "id": "7c37c4e1-ee17-4555-86f4-c7e2401174df",
+                "resourcePath": "objects\/obj_textbox\/obj_textbox.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -831,6 +839,14 @@
             }
         },
         {
+            "Key": "e6d66930-b7a1-4852-9c9e-b44e56a79faa",
+            "Value": {
+                "id": "af8e93b8-2e3c-427e-b958-3fb4c87a5275",
+                "resourcePath": "timelines\/tl_dialog_test\/tl_dialog_test.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "e6dd68ee-f67f-43ce-84fc-1bb5fb27d63a",
             "Value": {
                 "id": "9f96ce5e-4acd-4d0d-bf42-9afcad60540f",
@@ -909,10 +925,19 @@
                 "resourcePath": "rooms\/room0\/room0.yy",
                 "resourceType": "GMRoom"
             }
+        },
+        {
+            "Key": "f8cd2947-ce5f-4914-b1a8-84173378c318",
+            "Value": {
+                "id": "597d5789-c9f8-45a5-8095-c375b8fd97fc",
+                "resourcePath": "scripts\/dialog_text\/dialog_text.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
-        "07229bf2-abdd-4f68-803a-8bf26810c3b1"
+        "07229bf2-abdd-4f68-803a-8bf26810c3b1",
+        "f8cd2947-ce5f-4914-b1a8-84173378c318"
     ],
     "tutorial": ""
 }
