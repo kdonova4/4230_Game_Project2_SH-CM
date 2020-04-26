@@ -1,0 +1,1 @@
+dialog_text("Try to find way out!");

@@ -1,0 +1,1 @@
+dialog_text("Press Q to continue!");
