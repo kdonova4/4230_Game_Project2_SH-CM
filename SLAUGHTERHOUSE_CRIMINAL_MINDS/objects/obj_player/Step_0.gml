@@ -2,7 +2,7 @@
 // You can write your code in this editor
 //script_execute(script0);
 
-if (mouse_check_button_pressed(mb_left)){
+if place_meeting(x,y,obj_trap) or place_meeting(x,y, obj_spikes) or place_meeting(x,y,obj_enemy) == true{
 	flashAlpha=1;
 }
 
