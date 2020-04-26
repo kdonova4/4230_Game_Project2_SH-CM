@@ -55,7 +55,7 @@ with (obj_trap) {
 }
 
 with (obj_wind) {
-	if (point_distance(other.x, other.y, x, y) <= 20) && obj_player.lightOn{
+	if (point_distance(other.x, other.y, x, y) <= 20) && obj_player.lightOn && detected {
 		with(obj_player)
 		{
 			lightOn = false
