@@ -15,7 +15,7 @@ The instruction will aquire you a copy of the project up and running on your loc
 - Register with a valid username and password
 
 ## Running the project
-- Clone or download the project from the given [link](https://github.com/kdonova4/4230_Game_Project)
+- Clone or download the project from the given [link](https://github.com/kdonova4/4230_Game_Project2_SH-CM)
 - Import the downloaded project into GameMaker.
 - Hit the play button or press F5
 
