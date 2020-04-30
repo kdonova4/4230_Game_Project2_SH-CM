@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 //script_execute(script0);
+if(keyboard_check_pressed(ord("Q")))
+{
+	qtimes += 1;	
+}
 with(obj_enemy)
 {
 	if(obj_player.detected)
@@ -93,7 +97,7 @@ if(lightOn == true && alarm[0] == -1)
 }
 
 	
-if(canAttack)
+if(canAttack) && qtimes > 2
 {
 		if keyboard_check(vk_space)
 		{

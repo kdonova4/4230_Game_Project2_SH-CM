@@ -17,3 +17,4 @@ canAttack = true
 canDamage = true;
 soundPlayed = false
 restarted = false
+qtimes = 0

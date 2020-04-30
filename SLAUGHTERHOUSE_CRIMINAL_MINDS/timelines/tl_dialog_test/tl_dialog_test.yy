@@ -37,6 +37,23 @@
                 "m_owner": "e6d66930-b7a1-4852-9c9e-b44e56a79faa"
             },
             "moment": 1
+        },
+        {
+            "id": "c12a43de-c114-45af-b0b0-f7ffc347193a",
+            "modelName": "GMMoment",
+            "mvc": "1.0",
+            "name": "",
+            "evnt": {
+                "id": "fb3ca5e4-56ad-44a1-a356-e6f4478524fc",
+                "modelName": "GMEvent",
+                "mvc": "1.0",
+                "IsDnD": false,
+                "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+                "enumb": 2,
+                "eventtype": 0,
+                "m_owner": "e6d66930-b7a1-4852-9c9e-b44e56a79faa"
+            },
+            "moment": 2
         }
     ]
 }

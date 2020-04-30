@@ -1,1 +1,1 @@
-dialog_text("... All the Best!");
+dialog_text("Press Q to Play!");
