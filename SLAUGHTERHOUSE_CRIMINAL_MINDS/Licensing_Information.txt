@@ -15,10 +15,30 @@ Details of sprites/tiles:
 3.	16x16 8 directional character set
 
 Audio:
+https://www.zapsplat.com/music/match-strike-matchbox-and-light/
+https://www.zapsplat.com/music/empty-chest-of-drawers-open/
+https://www.freesoundslibrary.com/wp-content/uploads/2018/02/fire-sound.mp3
+https://www.zapsplat.com/music/footstep-single-shoe-in-wet-dirt-mud-12/
+https://www.zapsplat.com/music/footstep-single-shoe-in-wet-dirt-mud-2/
+https://www.zapsplat.com/music/4-slice-toaster-press-down/
+https://www.zapsplat.com/music/4-slice-toaster-pop-up/
+https://www.soundjay.com/door/door-1-open.mp3
+http://www.orangefreesounds.com/blow-sound-effect/
+https://www.zapsplat.com/sound-effect-category/dinosaurs/page/3/
+https://www.zapsplat.com/music/dinosaur-growl-or-grunt-1/
+https://www.zapsplat.com/music/single-footstep-trainer-on-wooden-step-9/
+https://www.zapsplat.com/music/male-man-grunt-groan-short-in-pain-1/
+https://www.zapsplat.com/music/heavy-sword-impact-hit-wood-with-a-loud-thud-and-cracking-sound-version-2/
+https://www.zapsplat.com/music/bathroom-extractor-fan-switch-click/
+https://www.zapsplat.com/music/button-click/
+https://www.zapsplat.com/music/large-sack-or-bag-of-treasure-gold-coins-drop-down-on-ground/
+https://www.zapsplat.com/music/monster-creature-evil-wheezy-laugh-exhale/
 
 Sound SFX & Music : 
-
+https://www.fesliyanstudios.com/royalty-free-music/download/dark-winds-chapter-1/214
+https://www.zapsplat.com/music/bass-pulse-lfe-horror-spooky-seamless-loop-tension-suspense/
 Royalty Free Music available at freesound.org, freesoundeffects.com
+https://www.zapsplat.com/music/cinematic-hit-loud-bright-and-scary/
 
 Sprites available at itch.io for free under Creative Commons
 
@@ -29,3 +49,4 @@ https://szadiart.itch.io/rogue-fantasy-castle
 https://opengameart.org/content/16x16-pixel-art-dungeon-wall-and-cobblestone-floor-tiles
 https://pixel-poem.itch.io/dungeon-assetpuck
 https://midnitepixelated.itch.io/free-16x16-pixel-art-fx
+https://josebraga.itch.io/the-crusades'
