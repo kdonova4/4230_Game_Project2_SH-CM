@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 depth = -1*y
-path_start(path,mv_speed, path_action_reverse, 1)
+path_start(path,0.45, path_action_reverse, 1)
 seesYou = false
 chasing = false
 onPath = true
@@ -17,3 +17,6 @@ state = States.Walking
 sound = audio_play_sound(snd_boss_steps,1,true)
 soundCanPlay = true
 seeSoundcanplay = false
+hp = 100
+dead =false;
+canDamage = true

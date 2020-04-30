@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "409a9dcf-bce6-4331-86d9-f7d493b259bb",
+            "Value": {
+                "id": "09eefe07-a14b-424b-943d-f0b095368eb5",
+                "resourcePath": "sounds\\snd_detected\\snd_detected.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "42316489-9e45-4c7d-8632-c91f1780f13e",
             "Value": {
                 "id": "c8990dbb-bb9a-4e97-ac2e-933d2775970c",
@@ -450,7 +458,7 @@
             "Key": "6bcffeed-76b8-40d7-82ad-60fc8210d5ca",
             "Value": {
                 "id": "0356476e-686a-4542-93ff-ec869c361128",
-                "resourcePath": "sounds\\snd_hit_enemy\\snd_hit_enemy.yy",
+                "resourcePath": "sounds\\snd_swipe\\snd_swipe.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -484,6 +492,14 @@
                 "id": "6d62cde7-8ce5-4f25-8161-cde4b03784c3",
                 "resourcePath": "datafiles_yy\/Fire-sound.ogg.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "74939437-1055-44c0-896e-8b5d013e5071",
+            "Value": {
+                "id": "71eb48a3-6d0d-4ba7-9951-616b535224d3",
+                "resourcePath": "sounds\\snd_swipe1\\snd_swipe1.yy",
+                "resourceType": "GMSound"
             }
         },
         {

@@ -1,6 +1,18 @@
 /// @description Insert description here
 // You can write your code in this editor
 //script_execute(script0);
+with(obj_enemy)
+{
+	if(obj_player.detected)
+ {
+	if !audio_is_playing(snd_detected)
+				audio_play_sound(snd_detected,8,true)	 
+ }
+ if(obj_player.detected == false)
+ {
+	audio_stop_sound(snd_detected)	 
+ }
+}
 
 if place_meeting(x,y,obj_trap) or place_meeting(x,y, obj_spikes) or place_meeting(x,y,obj_enemy) == true{
 	flashAlpha=1;
@@ -85,14 +97,16 @@ if(canAttack)
 {
 		if keyboard_check(vk_space)
 		{
+			
+			if !audio_is_playing(snd_swipe)
+				audio_play_sound(snd_swipe,9,false)
 			canAttack = false
 			alarm[3] =40;
 			if sprite_index = spr_player_left1 || sprite_index = spr_player_left
 			{
 				image_index = 0
 				sprite_index = spr_slice_left
-				if !audio_is_playing(snd_blow_out)
-				audio_play_sound(snd_hit_enemy,9,false)
+				
 			}
 			
 			if sprite_index = spr_player_idle || sprite_index = spr_player_down
@@ -115,3 +129,4 @@ if(canAttack)
 			
 		}
 }
+

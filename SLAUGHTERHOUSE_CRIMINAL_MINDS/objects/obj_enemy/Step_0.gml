@@ -1,6 +1,29 @@
 /// @description Insert description here
 // You can write your code in this editor
-with (object_index)
+
+with (id)
+{
+	if keyboard_check_pressed(vk_space)
+		{
+			
+			
+			if(distance_to_object(obj_player) < 5 && canDamage)
+			{
+				id.hp -= 25;
+				canDamage = false
+				alarm[0] = 30
+				if !audio_is_playing(snd_boss_away)
+				audio_play_sound(snd_boss_away,9,false)
+			}
+		}
+	if hp <= 0
+	{
+		
+
+    instance_destroy(id, false);
+
+	}
+if(dead ==false)
 {
 	distance = distance_to_object(obj_player)
 
@@ -16,13 +39,7 @@ with (object_index)
 	exit;	
 	}
 	
-	
-	
-	
-	
-	
-	
-	if distance_to_object(obj_player) < 100 
+		if distance_to_object(obj_player) < 100 
 {
 	
 	hasPlayed = true
@@ -40,6 +57,17 @@ if distance_to_object(obj_player) > 100
 	if(audio_is_playing(sound))
 	audio_pause_sound(sound)
 }
+
+	
+}
+	
+	
+	
+	
+	
+	
+	
+	
 
  
 	
@@ -81,8 +109,9 @@ if(state = States.Walking)
 		chasing = true
 		path_end()
 		onPath = false
-	
-	    mp_potential_step(obj_player.x, obj_player.y, .20, false);
+		obj_player.detected = true
+		obj_player.alarm[4] = room_speed * 10
+	    mp_potential_step(obj_player.x, obj_player.y, .75, false);
 	}	
 	else
 	{
@@ -97,12 +126,12 @@ if(state = States.Walking)
 		turnbackcanplay = false
 				pointx = path_get_point_x(path,0)
 				pointy = path_get_point_y(path,0)
-				mp_potential_step(pointx, pointy, .20, false);
+				mp_potential_step(pointx, pointy, .75, false);
 				if (x == pointx && y == pointy)
 				{
 					
 					onPath = true
-					path_start(path,.20, path_action_reverse, 1)
+					path_start(path,.75, path_action_reverse, 1)
 					
 				
 				}
@@ -181,3 +210,47 @@ if (distance_to_object(obj_player) > 2)
 {
 	state = States.Walking	
 }
+if (sprite_index =  spr_enemy_stab_left)
+	{
+			// Are you behind me. I gotta turn around now. 
+		
+		
+		
+	if !audio_is_playing(snd_swipe)
+				audio_play_sound(snd_swipe,9,false)
+	
+	
+	}
+	if (sprite_index =  spr_enemy_attack_down)
+	{
+			// Are you behind me. I gotta turn around now. 
+		
+		
+		
+	if !audio_is_playing(snd_swipe)
+				audio_play_sound(snd_swipe,9,false)
+	
+	
+	}
+	if (sprite_index =  spr_enemy_stab_right)
+	{
+			// Are you behind me. I gotta turn around now. 
+		
+		
+		if !audio_is_playing(snd_swipe)
+				audio_play_sound(snd_swipe,9,false)
+	
+	
+	
+	}
+	if (sprite_index =  spr_enemy_attack_up)
+	{
+			// Are you behind me. I gotta turn around now. 
+		
+		
+		if !audio_is_playing(snd_swipe)
+				audio_play_sound(snd_swipe,9,false)
+	
+	
+	
+	}
