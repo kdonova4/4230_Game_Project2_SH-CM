@@ -43,7 +43,7 @@ There is no scoring in the game as your main objective is to explore around the 
 - [Pranav Dadu](https://github.com/StabbedToDeath) - Programmer
 
 ## License
-This project consists of several personal and public resources. License for the resources can be found here [Licensing_Information](Licensing_Information.txt)
+This project consists of several personal and public resources. License for the resources can be found here [Licensing_Information](https://github.com/kdonova4/4230_Game_Project2_SH-CM/blob/master/SLAUGHTERHOUSE_CRIMINAL_MINDS/Licensing_Information.txt)
 
 ## Acknowledgements
 - Hat tip to anyone whose art was used
