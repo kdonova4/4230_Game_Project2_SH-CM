@@ -1,1 +1,1 @@
-dialog_text("Press Q to Play!");
+dialog_text("You Need The Key First!");

@@ -18,3 +18,5 @@ canDamage = true;
 soundPlayed = false
 restarted = false
 qtimes = 0
+
+hasKey = false

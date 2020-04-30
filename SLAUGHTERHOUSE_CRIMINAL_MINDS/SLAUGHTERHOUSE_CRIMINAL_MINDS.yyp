@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "44e50d15-9fd3-4cd8-94ec-7174b801a0e3",
+            "Value": {
+                "id": "1c6825ae-f2aa-420c-8291-25e487d8f612",
+                "resourcePath": "sprites\\spr_key\\spr_key.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "451e01b1-dc19-43f1-80f9-19adfbdbe897",
             "Value": {
                 "id": "dec128f8-8a07-463a-a2ed-227fc6138d44",
@@ -551,6 +559,14 @@
             }
         },
         {
+            "Key": "7d669808-b1c9-40b4-b685-5ed6ff2d1f20",
+            "Value": {
+                "id": "b194a09f-4df9-49c9-bf49-7cf60e78ac95",
+                "resourcePath": "objects\\obj_key\\obj_key.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7e1b67cc-45c3-4a10-a4da-bc6398009ab4",
             "Value": {
                 "id": "fb93d93d-1c80-4c6e-a539-bca1ca1333a4",
@@ -732,6 +748,14 @@
                 "id": "f4101947-9ed1-4522-b0da-c7217093cf84",
                 "resourcePath": "sprites\/spr_slice_down\/spr_slice_down.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a5fdbded-b19c-4342-85d3-6c543107b4cc",
+            "Value": {
+                "id": "6d9a6ea7-4716-4f7d-8f9e-614494934666",
+                "resourcePath": "sounds\\snd_fail\\snd_fail.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -948,6 +972,14 @@
                 "id": "c8a30c30-bf6c-471b-8b93-6633479c4242",
                 "resourcePath": "sprites\/spr_player_right1\/spr_player_right1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "da99c22e-f9d3-4448-8d98-33be2ce1cc40",
+            "Value": {
+                "id": "e08aa74f-7090-4c62-a63c-2436a621ff81",
+                "resourcePath": "sounds\\snd_keyPickup\\snd_keyPickup.yy",
+                "resourceType": "GMSound"
             }
         },
         {
