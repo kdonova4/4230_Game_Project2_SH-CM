@@ -103,20 +103,6 @@
             "value": "0",
             "varName": "third_heart",
             "varType": 1
-        },
-        {
-            "id": "93658003-565a-4e39-b5dd-42c7d133f0ac",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "tempLight",
-            "varType": 3
         }
     ],
     "solid": false,
