@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+detected = true;
+alarm[4] = 50;
+
 if canDamage {
 	if (obj_UI.third_heart < 3) {
 		canDamage = false;

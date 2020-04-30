@@ -43,7 +43,7 @@ if x == xprevious && y == yprevious && canAttack == true{
 
 
 //triggering traps code
-with (obj_trap) {
+with (obj_spikes) {
 	if (point_distance(other.x, other.y, x, y) <= 20) {
 		image_speed = 5
 		if soundPlayed == false
@@ -58,23 +58,18 @@ with (obj_trap) {
 	
 	
 }
-
 with (obj_wind) {
-	if (point_distance(other.x, other.y, x, y) <= 20) && obj_player.lightOn && obj_player.detected {
-		with(obj_player)
-		{
-			lightOn = false
-			time = 0
-		}
+	if (point_distance(obj_player.x, obj_player.y, x, y) <= 20) && obj_player.lightOn == true && obj_player.detected == true {
+		
+		obj_player.lightOn = false
+		obj_player.time = 0
 		if !audio_is_playing(snd_blow_out)
-		audio_play_sound(snd_blow_out, 3, false)
+			audio_play_sound(snd_blow_out, 3, false)
 		
 	} 
 }
-//after detection dcode
-if detected {
-	alarm[2] = 30;
-}
+
+
 // calculating sound volume based on the playes distance to source
 
 
