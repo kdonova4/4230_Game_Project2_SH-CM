@@ -16,3 +16,4 @@ up = false
 canAttack = true
 canDamage = true;
 soundPlayed = false
+restarted = false

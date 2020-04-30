@@ -4,6 +4,11 @@
 
 if place_meeting(x,y,obj_trap) or place_meeting(x,y, obj_spikes) or place_meeting(x,y,obj_enemy) == true{
 	flashAlpha=1;
+	if(!audio_is_playing(snd_sceam))
+	{
+		audio_play_sound(snd_sceam, 1,false)
+	}
+	
 }
 
 if (flashAlpha>0){
@@ -91,6 +96,8 @@ if(canAttack)
 			{
 				image_index = 0
 				sprite_index = spr_slice_left
+				if !audio_is_playing(snd_blow_out)
+				audio_play_sound(snd_hit_enemy,9,false)
 			}
 			
 			if sprite_index = spr_player_idle || sprite_index = spr_player_down
