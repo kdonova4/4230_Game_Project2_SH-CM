@@ -1,0 +1,1 @@
+dialog_text("Doors Are Locked...");

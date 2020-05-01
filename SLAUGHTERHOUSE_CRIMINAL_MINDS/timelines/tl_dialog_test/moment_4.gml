@@ -1,1 +1,1 @@
-dialog_text("Press Q To Play!");
+dialog_text("If Your Seen...");

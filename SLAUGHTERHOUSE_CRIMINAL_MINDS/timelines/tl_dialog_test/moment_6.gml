@@ -1,0 +1,1 @@
+dialog_text("If You Touch The Spikes...");

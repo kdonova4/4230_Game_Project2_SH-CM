@@ -97,7 +97,7 @@ if(lightOn == true && alarm[0] == -1)
 }
 
 	
-if(canAttack) && qtimes >= 5
+if(canAttack) && qtimes >= 13
 {
 		if keyboard_check(vk_space)
 		{

@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(canAttack == true) && qtimes >= 5
+if(canAttack == true) && qtimes >= 13
 {
 if (!place_meeting(x,y+2,obj_wall))
 	{

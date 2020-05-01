@@ -1,0 +1,1 @@
+dialog_text("The Music Will Tell You");
