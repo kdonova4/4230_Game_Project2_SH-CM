@@ -111,7 +111,7 @@ if(state = States.Walking)
 		onPath = false
 		obj_player.detected = true
 		obj_player.alarm[4] = room_speed * 10
-	    mp_potential_step(obj_player.x, obj_player.y, .75, false);
+	    mp_potential_step(obj_player.x, obj_player.y, .85, false);
 	}	
 	else
 	{
