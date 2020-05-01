@@ -21,7 +21,7 @@ The instruction will aquire you a copy of the project up and running on your loc
 
 ## How to Play
 When you run the project, you will find yourself in a huge dark room with limited vision. You have limited time to see before you need to relight the torch again as torches have time limit before it goes off. When you find chests open it up and there might be matches or none as it is generated randomly. 
-There is no scoring in the game as your main objective is to explore around the map to find your exit while avoiding traps and fighting enemies to find your way out.
+There is no scoring in the game as your main objective is to explore around the map to find a key to exit a door while avoiding traps and fighting enemies to find your way out.
 
 ## Basic Controls
 - WASD - Movement
