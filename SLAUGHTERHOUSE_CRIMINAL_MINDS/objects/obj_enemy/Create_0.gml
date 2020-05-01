@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 depth = -1*y
-path_start(path,0.45, path_action_reverse, 1)
+path_start(path,0.35, path_action_reverse, 1)
 seesYou = false
 chasing = false
 onPath = true
